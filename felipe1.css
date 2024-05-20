@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: darkslategrey;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.destaque {
+    text-align: center;
+    padding: 100px 0;
+    background-color: #f4f4f4;
+}
+
+.destaque h1 {
+    font-size: 100px;
+    margin-bottom: 20px;
+}
+
+.destaque p {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: darkslategrey;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: darkslategray;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+}
+ 
+.partedebaixo {
+    text-align: center;
+}
+
+.partedebaixo p {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.modelo-info {
+    text-align: center;
+}
+
+.detail {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color:black;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.alinhar{
+    text-align: center;
+}
+
