@@ -17,6 +17,10 @@
             </ul>
         </nav>
     </header>
+    <center>
+    <p id="meuParagrafo">Nesta página você encontra os nossos melhores perfumes importados.</p> 
+    <button onclick="mostrarEsconder()">Mostrar/Esconder</button>
+    </center>
     <centered>
         <section class="modelo-info">
             <h1>Acqua Di GIO: Giorgio Armani</h1>
@@ -25,6 +29,10 @@
             <p> <a href="maisdetalhes.html"class="detail" >Mais detalhes</a></p>
             <p>Preço: R$620</p>
             <form>
+                <p>Outros Modelos</p>
+                <img id="myImage" src="img11.jpg" style="width: 200px;"> <br>
+                <button onclick="changeImage()">Clique aqui para mudar a imagem</button><br>
+                <br>
                 <label>Escolha o tamanho do frasco:</label>
                 <select name="linguagem" required="required">
                     <option value="">Escolha o tamanho em ml</option>
@@ -116,5 +124,26 @@
     <footer>
         <p>&copy; 2024 Perfumaria. Todos os direitos reservados.</p>
     </footer>
+
+    <script>
+    function mostrarEsconder() {
+         var elemento = document.getElementById('meuParagrafo');
+        if (elemento.style.display === 'none') {
+             elemento.style.display = 'block'; 
+        } else {
+             elemento.style.display = 'none';
+            }
+    } 
+    </script>
+<script>
+     function changeImage() {
+            let img = document.getElementById("myImage");
+            if (img.src.match("img11.jpg")) {
+                img.src = "img12.jpg";
+            } else {
+                img.src = "img11.jpg";
+            }
+        }
+</script> 
 </body>
 </html>
